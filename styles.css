@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+#gameBoard {
+    border: solid 2.5px black;
+}
+
+#scoreText {
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
