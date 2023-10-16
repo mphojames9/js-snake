@@ -10,9 +10,19 @@
 <body>
     <h1>Snake game</h1>
     <div class="gameContainer">
-        <canvas id="gameBoard" height="500px" width="500px" ></canvas>
-        <div id="scoreText">0</div>
-        <button id="reset">Reset</button>
+        <div class="scores">
+            <div class="currentScore">Score <span id="score">0</span></div>
+            <div class="highScore">High Score <span id="score">0</span></div>
+        </div>
+        <canvas id="gameBoard" width="274px" height="274px"></canvas>
+        <div class="buttons">
+            <button id="start">Start</button>
+        </div>
+        <div class="gameOverSec">
+            <h3>Game Over!</h3>
+            <div class="finalRecord">Your Score is 0</div>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
     </div>
 </body>
 </html>
